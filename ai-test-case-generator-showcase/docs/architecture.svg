@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="300" viewBox="0 0 1400 300">
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="#333"/>
+    </marker>
+  </defs>
+  <style>
+    .box { fill: white; stroke: #333; stroke-width: 2; }
+    .txt { font-family: Arial, sans-serif; font-size: 22px; fill: #111; text-anchor: middle; }
+    .small { font-family: Arial, sans-serif; font-size: 16px; fill: #444; text-anchor: middle; }
+    .arrow { stroke: #333; stroke-width: 2.5; fill: none; marker-end: url(#arrow); }
+  </style>
+  <rect class="box" x="30" y="85" width="180" height="100" rx="12" ry="12"/>
+  <text class="txt" x="120" y="125">Source Functions</text>
+  <text class="small" x="120" y="155">Python / JS / Rust</text>
+  <rect class="box" x="250" y="85" width="180" height="100" rx="12" ry="12"/>
+  <text class="txt" x="340" y="125">Parsing</text>
+  <text class="small" x="340" y="155">Function extraction</text>
+  <rect class="box" x="470" y="85" width="180" height="100" rx="12" ry="12"/>
+  <text class="txt" x="560" y="125">CFG Generation</text>
+  <text class="small" x="560" y="155">Control-flow context</text>
+  <rect class="box" x="690" y="85" width="190" height="100" rx="12" ry="12"/>
+  <text class="txt" x="785" y="125">Training Records</text>
+  <text class="small" x="785" y="155">Code + CFG + tests</text>
+  <rect class="box" x="920" y="85" width="190" height="100" rx="12" ry="12"/>
+  <text class="txt" x="1015" y="125">LoRA Fine-Tuning</text>
+  <text class="small" x="1015" y="155">StarCoderBase-1B</text>
+  <rect class="box" x="1150" y="85" width="210" height="100" rx="12" ry="12"/>
+  <text class="txt" x="1255" y="125">Test Generation</text>
+  <text class="small" x="1255" y="155">Evaluation</text>
+  <path class="arrow" d="M210 135 L245 135"/>
+  <path class="arrow" d="M430 135 L465 135"/>
+  <path class="arrow" d="M650 135 L685 135"/>
+  <path class="arrow" d="M880 135 L915 135"/>
+  <path class="arrow" d="M1110 135 L1145 135"/>
+</svg>

@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "If you use or reference this project, please cite the associated paper."
+title: "NLP-Powered Test Case Generation from Function Description – A Cross-Language Approach"
+type: article
+authors:
+  - family-names: "Kachirackal"
+    given-names: "Jonah Varghese"
+  - family-names: "Balakrishnan"
+    given-names: "Vijayakumar"
+year: 2025
+conference:
+  name: "2025 IEEE 3rd International Conference on Computational Intelligence and Network Systems (CINS)"
+url: "https://www.researchgate.net/publication/401529102_NLP-Powered_Test_Case_Generation_from_Function_Description_-_A_Cross-Language_Approach"

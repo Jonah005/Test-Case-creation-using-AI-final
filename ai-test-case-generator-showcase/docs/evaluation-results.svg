@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="520" viewBox="0 0 900 520">
+<style>
+  text { font-family: Arial, sans-serif; fill: #111; }
+  .axis { stroke: #333; stroke-width: 2; }
+  .bar { fill: #777; }
+  .label { font-size: 20px; text-anchor: middle; }
+  .value { font-size: 18px; text-anchor: middle; }
+  .title { font-size: 28px; font-weight: bold; text-anchor: middle; }
+</style>
+<text class="title" x="450" y="45">Published Evaluation Results</text>
+<line class="axis" x1="90" y1="430" x2="840" y2="430"/>
+<line class="axis" x1="90" y1="90" x2="90" y2="430"/>
+<rect class="bar" x="170" y="114" width="140" height="316"/>
+<rect class="bar" x="380" y="126" width="140" height="304"/>
+<rect class="bar" x="590" y="150" width="140" height="280"/>
+<text class="value" x="240" y="105">26 / 28</text>
+<text class="value" x="450" y="117">25 / 28</text>
+<text class="value" x="660" y="141">23 / 28</text>
+<text class="label" x="240" y="470">Python</text>
+<text class="label" x="450" y="470">JavaScript</text>
+<text class="label" x="660" y="470">Rust</text>
+</svg>
